@@ -38,3 +38,13 @@
   transform: translateY(-2px);
   box-shadow: 0 6px 20px 0 rgba(99, 102, 241, 0.55);
 }
+
+.valid{
+  background-color: green;
+  padding: 10px;
+}
+
+.invalid {
+  background-color: red;
+  padding: 10px;
+}

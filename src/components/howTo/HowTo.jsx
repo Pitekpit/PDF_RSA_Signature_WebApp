@@ -11,7 +11,7 @@ export const HowTo = () => {
           App is designed for PDF only, but the same principles can be applied to any file type. The process involves three main steps: Key Generation, PDF Signing, and PDF Verification. 
           <br/>
           In case of a need to change files different than PDF, you can use the same keys, but you will need to implement your own signing and verification logic for those file types.
-          OR just change my app from <a href="https://github.com/Pitekpit/EncryptionPage" target="_blank">Github</a>.
+          OR just change my app from <a href="https://github.com/Pitekpit/PDF_RSA_Signature_WebApp" target="_blank">Github</a>.
           <br/>
           I belive it should as simple as removing the PDF specific code (removing accept="application/pdf" from the file input).
           Keep in mind that RSA keys are not suitable for signing large files.

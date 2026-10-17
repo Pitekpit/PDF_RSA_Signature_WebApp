@@ -127,11 +127,11 @@ export const PDFVerifier = () => {
       {verificationResult !== null && (
         <div>
           {verificationResult ? (
-            <p>
+            <p className='valid'>
               Signature is VALID! The PDF file is authentic and has not been modified.
             </p>
           ) : (
-            <p>
+            <p className='invalid'>
               Signature is INVALID! Either the file was altered or the public key does not match.
             </p>
           )}
